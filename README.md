@@ -1,6 +1,7 @@
 # Objective
 Developed a cost-efficient Tesla-inspired robotic car using Arduino Uno and ESP32-CAM, featuring RFID-based door security lock, Wi-Fi–secured web server for manual control, and Bluetooth-based voice control via an android app, with the ability to switch seamlessly between manual and voice control modes at any time. Integrated an emergency braking and collision avoidance system using ultrasonic sensors that detect obstacles within 30 cm (front/rear) and 15 cm (during turns), automatically stopping the vehicle until a new command is received. Added a rearview camera with backlight support to enhance parking precision and low-light visibility.
 
+----
 
 # Full Setup & Installation Guidelines (Module-wise & Step by Step)
 ## Module 1 Manual Control with Rearview Camera System
