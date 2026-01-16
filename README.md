@@ -30,7 +30,7 @@ Developed a cost-efficient Tesla-inspired robotic car using Arduino Uno and ESP3
 2. Connect the Arduino UNO to the PC using USB cable.
 3. Open Arduino IDE
 4. Go to: Tools > Board > esp32 > ESP32 Wrover Module. </br> <img src="images/8.png" alt="8" width="500">
-5. Adjust the marked settings as below. </br> <img src="images/9.png" alt="9" width="320">
+5. Go to: Tools > Adjust the marked settings as below. </br> <img src="images/9.png" alt="9" width="320">
 6. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find the actual port).
 7. Upload the code.
 
