@@ -2,7 +2,7 @@
 
 
 ### Module 1 Manual Control System with Camera
-<b> WiFi Name: </b> Smart Wheelchair V1 <br>
+<b> WiFi Name: </b> TESLA Prototype V1 <br>
 <b> Password: </b> 12345678 <br>
 <b> Web Server: </b> 192.168.4.1
 
