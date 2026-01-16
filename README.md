@@ -38,6 +38,11 @@ Developed a cost-efficient Tesla-inspired robotic car using Arduino Uno and ESP3
 
 ----
 
+# Circuit Diagram
+<img src="Circuit Diagram.png" alt="1400" width="1400">
+
+----
+
 ### Module 1 Manual Control System with Camera
 <b> WiFi Name: </b> TESLA Prototype V1 <br>
 <b> Password: </b> 12345678 <br>
@@ -51,5 +56,4 @@ Developed a cost-efficient Tesla-inspired robotic car using Arduino Uno and ESP3
 ### Module 3 Door Security System
 <b> RFID UID: </b> E1 24 0C 05
 
-### Circuit Diagram
-<img src="Circuit Diagram.png" alt="1400" width="1400">
+
