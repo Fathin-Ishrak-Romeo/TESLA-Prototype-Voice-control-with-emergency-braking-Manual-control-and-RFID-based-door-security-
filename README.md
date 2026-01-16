@@ -1,26 +1,26 @@
 # Full Setup & Installation Guidelines (Module-wise & Step by Step)
 ## Module 1 Manual Control with Rearview Camera System
-<b>Step i: Installing ESP32 Board</b> </br>
+### <b>Step i: Installing ESP32 Board</b> </br>
 1. Open Arduino IDE.
 2. Go to: File > Preferences </br> <img src="images/1.png" alt="1" width="200">
 3. Paste this link https://dl.espressif.com/dl/package_esp32_index.json within the "Additional board manager URLs" section > Click "OK". </br> <img src="images/2.png" alt="2" width="550"> </br><b> NOTE: </b> If other boards are already installed, add a comma (,) at the end of the existing link/s, paste the link with no space, and then click ‘OK’ as shown in the above picture.
 4. Go to: Tools > Board > Boards Manager. </br> <img src="images/3.png" alt="3" width="360">
 5. Search: "esp32 by Espressif Systems" > Select Version: 2.0.0 > Install. </br> <img src="images/4.png" alt="4" width="200">
 
-<b>Step ii: Installing Necessary Libraries</b> </br>
+### <b>Step ii: Installing Necessary Libraries</b> </br>
 1. Download: "AsyncTCP-master.zip" from [HERE](https://github.com/Fathin-Ishrak-Romeo/TESLA-Prototype-Voice-control-with-emergency-braking-Manual-control-and-RFID-based-door-security-/blob/01eec37880873f9ae82a443b227cad36dd5af50b/Module%201%20Manual%20Control%20with%20Rearview%20Camera%20System/Libraries/AsyncTCP-master.zip)
 2. Download: "ESPAsyncWebServer-master.zip" from [HERE](https://github.com/Fathin-Ishrak-Romeo/TESLA-Prototype-Voice-control-with-emergency-braking-Manual-control-and-RFID-based-door-security-/blob/01eec37880873f9ae82a443b227cad36dd5af50b/Module%201%20Manual%20Control%20with%20Rearview%20Camera%20System/Libraries/ESPAsyncWebServer-master.zip)
 3. Open Arduino IDE.
 4. Go to: Sketch > Include Library > Add .ZIP Library. </br> <img src="images/5.png" alt="5" width="400">
 5. Select both of the downloaded "AsyncTCP-master.zip" and "ESPAsyncWebServer-master.zip" library files one by one > Click: "Open".
 
-<b>Step iii: Important Settings for Smooth Real-time Video Steaming</b> </br>
+### <b>Step iii: Important Settings for Smooth Real-time Video Steaming</b> </br>
 1. Open: "This PC".
 2. Go to: "Documents" folder > "Arduino" folder > "librares" folder > "ESP_Async_WebServer" folder > "src" folder.
 3. Right Click: "AsyncWebSocket.h" file > Open with > Notepad. </br> <img src="images/6.png" alt="6" width="460">
 4. Set the marked macro to 1 as shown in the below picture, then save the file by pressing "Win + S". </br> <img src="images/7.png" alt="7" width="460">
 
-<b>Step iv: Using Arduino UNO as an External Programmer to Upload the Code into ESP32 CAM</b> </br>
+### <b>Step iv: Using Arduino UNO as an External Programmer to Upload the Code into ESP32 CAM</b> </br>
 1. Build the below circuit. </br><img src="External Programmer Arduino UNO Circuit Diagram.png" alt="500" width="500">
 2. Connect the Arduino UNO to the PC using USB cable.
 3. Open Arduino IDE
