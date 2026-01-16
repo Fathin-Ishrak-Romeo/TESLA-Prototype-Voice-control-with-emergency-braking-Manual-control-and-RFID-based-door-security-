@@ -55,7 +55,7 @@ const int PWMLightChannel = 3;
 #define HREF_GPIO_NUM     23
 #define PCLK_GPIO_NUM     22
 
-const char* ssid     = "Smart Wheelchair V1";
+const char* ssid     = "TESLA Prototype V1";
 const char* password = "12345678";
 
 AsyncWebServer server(80);
@@ -509,3 +509,4 @@ void loop()
   sendCameraPicture(); 
   Serial.printf("SPIRam Total heap %d, SPIRam Free Heap %d\n", ESP.getPsramSize(), ESP.getFreePsram());
 }
+
