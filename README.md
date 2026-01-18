@@ -29,10 +29,12 @@ Developed a cost-efficient Tesla-inspired robotic car using Arduino Uno and ESP3
 1. Build the below circuit. </br><img src="External Programmer Arduino UNO Circuit Diagram.png" alt="500" width="500">
 2. Connect the Arduino UNO to the PC using USB cable.
 3. Open Arduino IDE
-4. Go to: Tools > Board > esp32 > ESP32 Wrover Module. </br> <img src="images/8.png" alt="8" width="500">
-5. Go to: Tools > Adjust the marked settings as below. </br> <img src="images/9.png" alt="9" width="320">
-6. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find the actual port).
-7. Upload the code.
+4. Copy [Manual_control_with_rearview_camera.ino
+](https://github.com/Fathin-Ishrak-Romeo/TESLA-Prototype-Voice-control-with-emergency-braking-Manual-control-and-RFID-based-door-security-/blob/2a069ade18832d88cc805301a27389a3fc133a39/Module%201%20Manual%20Control%20with%20Rearview%20Camera%20System/Manual_control_with_rearview_camera/Manual_control_with_rearview_camera.ino) code and paste it into the Arduino IDE.
+5. Go to: Tools > Board > esp32 > ESP32 Wrover Module. </br> <img src="images/8.png" alt="8" width="500">
+6. Go to: Tools > Adjust the marked settings as below. </br> <img src="images/9.png" alt="9" width="320">
+7. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find the actual port).
+8. Upload the code.
 
 <b>NOTE:</b> If the upload failed, that means there is a connection loss in the circuit.
 
