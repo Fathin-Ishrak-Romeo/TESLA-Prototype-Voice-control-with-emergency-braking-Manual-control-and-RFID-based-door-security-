@@ -40,6 +40,31 @@ Developed a cost-efficient Tesla-inspired robotic car using Arduino Uno and ESP3
 
 ----
 
+## Module 3 Door Security System
+1. Open Arduino IDE.
+2. Go to: Tools > Boards Manager. </br> <img src="images/10.png" alt="10" width="360">
+3. Search: "Arduino AVR Boards by Arduino" > Select Version: 1.8.6 > Install. </br>
+![Description](images/11.png)
+4. Go to: Tools > Board> Manage Libraries > Search: "MFRC522 by Github Community" > Select Version: 1.4.10 > Install. </br>
+![Description](images/12.png)
+5. Go to: Tools > Manage Libraries > Search: "LiquidCrystal_I2C by Martin Kobuvvcik, Frank de Brabander" > Select Version: 2.0.0 > Install. </br>
+![Description](images/13.png)
+6. Connect the Arduino to the PC's USB port.
+7. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO. </br> <img src="images/14.png" alt="3" width="500">
+8. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find the actual port).
+9. Now open the [RFID_UID_Program.ino](https://github.com/Fathin-Ishrak-Romeo/TESLA-Prototype-Voice-control-with-emergency-braking-Manual-control-and-RFID-based-door-security-/blob/1b5439363e7f18694a3972412ad2fdc8e298d1db/Module%203%20Door%20Security%20System/Car_door_lock_security_system/RFID_UID_Program.ino) file in Arduino IDE & upload it.
+10. Open the serial monitor from the top right of the Arduino IDE.
+11. It will ask to Scan your RFID card.
+12. Scan any of the RFID tags that you want to make the key.
+13. Copy the UID that appears in the serial monitor. </br> <img src="images/15.png" alt="4" width="200">
+14. Now open the [Car_door_lock_security_system.ino](https://github.com/Fathin-Ishrak-Romeo/TESLA-Prototype-Voice-control-with-emergency-braking-Manual-control-and-RFID-based-door-security-/blob/bf57699c4bb4606c11a568b7320637bb2456d30a/Module%203%20Door%20Security%20System/Car_door_lock_security_system/Car_door_lock_security_system.ino) file in Arduino IDE.
+15. Look for the variable named "String MasterTag" and replace the value in the variable with the previously copied UID. </br>
+![Description](images/16.png)
+16. Save the program.
+17. Upload it.
+
+----
+
 # Circuit Diagram
 <img src="Circuit Diagram.png" alt="1400" width="1400">
 
